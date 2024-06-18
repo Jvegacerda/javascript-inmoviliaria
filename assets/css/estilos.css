@@ -1,5 +1,5 @@
 .main-section {
-    background-image: url('../img/img-main.jpeg');
+    background-image: url('../img/img-main.webp');
     background-size: cover; /* La imagen cubrirá todo el ancho y largo */
     background-position: center;
     height: 300px;
@@ -16,4 +16,18 @@
 
 .card img{
     height: 250px;
+}
+
+
+
+.sub-section {
+    background-image: url('../img/img-main.webp');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
 }
