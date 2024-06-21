@@ -92,8 +92,8 @@ const galeriaVenta = (id, propiedades_venta) => {
                         <p><i class="fas fa-map-marker-alt"></i> ${propiedad_venta.ubicación}</p>
                         <p><i class="fas fa-bed"></i> ${propiedad_venta.habitaciones} Habitaciones | <i class="fas fa-bath"></i> ${propiedad_venta.baños} Baños</p>
                         <p><i class="fas fa-dollar-sign"></i> ${propiedad_venta.costo}</p>
-                        <p class="text-danger"><i class="fas fa-smoking-ban"></i> ${propiedad_venta.smoke ? 'Permitido fumar' : 'No se permite fumar'}</p>
-                        <p class="text-danger"><i class="fa-solid fa-ban"></i> ${propiedad_venta.pets ? 'Mascotas permitidas' : 'No se permiten mascotas'}</p>
+                        <p>${propiedad_venta.smoke ? '<p class="text-success"><i class="fas fa-smoking"></i> Permitido fumar</p>' : '<p class="text-danger"><i class="fas fa-smoking-ban"></i> No se permite fumar'}</p>
+                        <p>${propiedad_venta.pets ? '<p class="text-success"><i class="fas fa-paw"> </i> Mascotas permitidas</p>' : '<p class="text-danger"><i class="fas fa-ban"></i> No se permiten mascotas'}</p>
                     </div>
                 </div>
             </div>`;
