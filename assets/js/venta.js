@@ -73,7 +73,7 @@ const galeriaVenta = (id, propiedades_venta) => {
     const seccionVenta = document.querySelector(id);
     let GVContent = "";
 
-//mostrar solo 3 en ventas
+//mostrar todo en ventas
     for (let i = 0; i < 6; i++) {
         if (i < propiedades_venta.length) {
             let propiedad_venta = propiedades_venta[i];

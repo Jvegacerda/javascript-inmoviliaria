@@ -73,7 +73,7 @@ const galeriaAlquiler = (id, propiedades_alquiler) => {
     const seccionAlquiler = document.querySelector(id);
     let GAContent = "";
 
-//mostrar solo 3 en alquileres
+//mostrar todo en alquileres
     for (let i = 0; i < 6; i++) {
         if (i < propiedades_alquiler.length) {
             let propiedad_alquiler = propiedades_alquiler[i];
